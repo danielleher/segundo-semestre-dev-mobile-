@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://36wrst0w8cw4"]
+
+[ext_resource type="Script" uid="uid://buvnnixxv7qim" path="res://entrega 3/calculadora.gd" id="1_kmi5w"]
+
+[node name="calculadora" type="Node2D"]
+script = ExtResource("1_kmi5w")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 2.0
+offset_top = -1.0
+offset_right = 310.0
+offset_bottom = 64.0
+
+[node name="OptionButton" type="OptionButton" parent="."]
+offset_left = 348.0
+offset_top = 59.0
+offset_right = 380.0
+offset_bottom = 79.0
+
+[node name="Button" type="Button" parent="."]
+offset_left = 4.0
+offset_top = 162.0
+offset_right = 309.0
+offset_bottom = 210.0
+text = "calcular"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 1.0
+offset_top = 310.0
+offset_right = 152.0
+offset_bottom = 352.0
+text = "resultado "
+
+[node name="TextEdit2" type="TextEdit" parent="."]
+offset_left = 3.0
+offset_top = 76.0
+offset_right = 311.0
+offset_bottom = 139.0
