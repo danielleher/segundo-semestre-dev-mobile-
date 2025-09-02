@@ -7,7 +7,7 @@ layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_kmi5w")
 
-[node name="TextEdit" type="TextEdit" parent="."]
+[node name="numero1" type="TextEdit" parent="."]
 layout_mode = 0
 offset_left = 2.0
 offset_top = -1.0
@@ -47,7 +47,7 @@ offset_right = 152.0
 offset_bottom = 352.0
 text = "resultado "
 
-[node name="TextEdit2" type="TextEdit" parent="."]
+[node name="numero2" type="TextEdit" parent="."]
 layout_mode = 0
 offset_left = 3.0
 offset_top = 76.0
