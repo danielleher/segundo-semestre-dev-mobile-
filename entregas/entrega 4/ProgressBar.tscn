@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://d12nmw0ok0o40"]
+
+[ext_resource type="Script" uid="uid://dwudifcxffeiv" path="res://entrega 4/progress_bar.gd" id="1_64jg3"]
+[ext_resource type="Texture2D" uid="uid://bqtxji8pqeaue" path="res://entrega 4/PikPng.com_edit-icon-png_3173143.png" id="2_lfvgw"]
+
+[node name="ProgressBar" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_64jg3")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+value = 70.0
+fill_mode = 4
+texture_under = ExtResource("2_lfvgw")
+texture_progress = ExtResource("2_lfvgw")
+tint_under = Color(0.0509804, 0.627451, 0.890196, 1)
+tint_progress = Color(0.725116, 0.979791, 0.999614, 1)
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

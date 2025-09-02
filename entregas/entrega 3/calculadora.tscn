@@ -41,10 +41,10 @@ text = "calcular"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 1.0
-offset_top = 310.0
-offset_right = 152.0
-offset_bottom = 352.0
+offset_left = 3.0
+offset_top = 224.0
+offset_right = 154.0
+offset_bottom = 266.0
 text = "resultado "
 
 [node name="numero2" type="TextEdit" parent="."]
