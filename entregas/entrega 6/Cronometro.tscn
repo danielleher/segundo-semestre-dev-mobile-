@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://cusa523ogrxmx"]
+
+[ext_resource type="Script" uid="uid://dp0sllnn8xxgo" path="res://entrega 6/cronometro.gd" id="1_s8sm7"]
+
+[node name="Cronometro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_s8sm7")
+
+[node name="TimerLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 1.0
+offset_right = 127.0
+offset_bottom = 32.0
+text = "00:00:00"
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
