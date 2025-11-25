@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://r60p6i3trc8s" path="res://atividade 24/area_2d.gd" id="2_ky1yd"]
 [ext_resource type="Script" uid="uid://b8v6n4bpjyrf6" path="res://atividade 24/player.gd" id="3_bt6lw"]
 
-[node name="Implementacaogame" type="Node"]
+[node name="main" type="Node"]
 script = ExtResource("1_52ttn")
 
 [node name="coin" type="Area2D" parent="."]
