@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://clhmqkrja7qgf"]
+
+[ext_resource type="Script" uid="uid://dtl0icmvf6aj3" path="res://entrega 24 atividade 22/spriteanimations.gd" id="1_arseb"]
+
+[node name="Spriteanimations" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_arseb")
