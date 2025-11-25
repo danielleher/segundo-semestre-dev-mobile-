@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cc3t2yee04wjb" path="res://entrega 10 atividade 25/colisoes.gd" id="1_qbpne"]
 
-[node name="Colisoes" type="Node2D"]
+[node name="Colisoes" type="CharacterBody2D"]
 script = ExtResource("1_qbpne")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
